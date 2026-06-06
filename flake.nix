@@ -34,6 +34,7 @@
 
                         packages = with pkgs; [
                             python312
+                            python312Packages.tkinter
                             jupyter
                             python312Packages.python-lsp-server
                         ];
